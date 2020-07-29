@@ -7,6 +7,7 @@ class Pipelines {
     Context context = new Context(jenkins, pipelineParameters)
 
     //new DefaultPipelineBuilder().build(context)
+    println "hello pipe"
     new TestPipelineBuilder().build(context)
   }
 }
