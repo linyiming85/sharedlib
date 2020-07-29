@@ -4,6 +4,6 @@ import com.ecloud.context.Context
 
 class  TestPipelineBuilder {
     void build(Context context) {
-        println("hello world for sharedlib")
+        println "hello world for sharedlib".class
     }
 }
