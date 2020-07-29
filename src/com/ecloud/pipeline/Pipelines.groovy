@@ -6,8 +6,8 @@ class Pipelines {
   static def buildCommonPipeline(jenkins, Map pipelineParameters) {
     Context context = new Context(jenkins, pipelineParameters)
 
-    //new DefaultPipelineBuilder().build(context)
+    new DefaultPipelineBuilder().build(context)
     println "hello pipe"
-    new TestPipelineBuilder().build(context)
+    //new TestPipelineBuilder().build(context)
   }
 }
