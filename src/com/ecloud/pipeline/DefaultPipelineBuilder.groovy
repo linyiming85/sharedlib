@@ -11,7 +11,7 @@ import com.ecloud.step.UnitTestStep
 class DefaultPipelineBuilder implements PipelineBuilder {
   @Override
   void build(Context context) {
-    println("build start")
+    println("build")
     loadProperties(context)
 
     buildPipeline(context)
