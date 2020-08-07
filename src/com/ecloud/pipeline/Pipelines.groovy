@@ -7,9 +7,8 @@ class Pipelines {
     Context context = new Context(jenkins, pipelineParameters)
     String jobName=jenkins.env.JOB_NAME
     String jobType=getJobType(jobName)
-    jenkins.echo "jobType====="+jobType
     switch (jobType){
-      case jobType == "verify":
+      case "verify":
             jenkins.echo "verifyci"
             new CCIPipelineBuilder().build(context)
       default:
