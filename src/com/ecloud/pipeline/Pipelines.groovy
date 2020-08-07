@@ -17,7 +17,7 @@ class Pipelines {
     }
   }
 
-  String getJobType(String jobName){
+  static String getJobType(String jobName){
     String [] jobSplit=jobName.split("_");
     int jobSplitLength=jobSplit.length;
     String jobType=jobSplit[jobSplitLength-1]
