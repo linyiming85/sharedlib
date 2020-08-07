@@ -1,3 +1,3 @@
 *** Jenkins Common SharedLib ***
 
-gerrit jenkins trigger
+通过Sharedlib解耦Jenkinsfile
