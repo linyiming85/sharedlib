@@ -5,7 +5,7 @@ import com.ecloud.context.Context
 class Pipelines {
   static def buildCommonPipeline(jenkins, Map pipelineParameters) {
     Context context = new Context(jenkins, pipelineParameters)
-    String jobName=jenkins.evn.JOB_NAME
+    String jobName=jenkins.env.JOB_NAME
     String jobType=getJobType(jobName)
     switch (jobType){
       case jobType == "verify":
