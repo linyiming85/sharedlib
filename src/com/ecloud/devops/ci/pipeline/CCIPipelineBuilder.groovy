@@ -1,4 +1,4 @@
-package com.ecloud.pipeline
+package com.ecloud.devops.ci.pipeline
 
 import com.ecloud.context.Context
 

@@ -1,6 +1,7 @@
-package com.ecloud.step
+package com.ecloud.devops.ci.step
 
-import com.ecloud.context.Context
+import com.ecloud.devops.ci.context.Context
+
 
 class CompileStep extends MavenStep {
   @Override
@@ -11,4 +12,5 @@ class CompileStep extends MavenStep {
       context.jenkins.sh 'mvn -B clean compile'
     }
   }
+
 }

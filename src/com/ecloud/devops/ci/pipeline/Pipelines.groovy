@@ -1,6 +1,7 @@
-package com.ecloud.pipeline
+package com.ecloud.devops.ci.pipeline
 
-import com.ecloud.context.Context
+import com.ecloud.devops.ci.context.Context
+
 
 class Pipelines {
   static def buildCommonPipeline(jenkins, Map pipelineParameters) {

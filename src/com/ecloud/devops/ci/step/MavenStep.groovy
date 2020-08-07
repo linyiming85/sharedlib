@@ -1,6 +1,6 @@
-package com.ecloud.step
+package com.ecloud.devops.ci.step
 
-import com.ecloud.context.Context
+import com.ecloud.devops.ci.context.Context
 import sun.tools.jstat.Closure
 
 abstract class MavenStep extends AbstractStep {

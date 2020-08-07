@@ -1,12 +1,13 @@
-package com.ecloud.pipeline
+package com.ecloud.devops.ci.pipeline
 
-import com.ecloud.context.Context
-import com.ecloud.step.BuildImageStep
-import com.ecloud.step.CompileStep
-import com.ecloud.step.InitBuildStep
-import com.ecloud.step.IntegrationTestStep
-import com.ecloud.step.PackageStep
-import com.ecloud.step.UnitTestStep
+import com.ecloud.devops.ci.context.Context
+import com.ecloud.devops.ci.step.BuildImageStep
+import com.ecloud.devops.ci.step.CompileStep
+import com.ecloud.devops.ci.step.InitBuildStep
+import com.ecloud.devops.ci.step.IntegrationTestStep
+import com.ecloud.devops.ci.step.PackageStep
+import com.ecloud.devops.ci.step.UnitTestStep
+
 
 class DefaultPipelineBuilder implements PipelineBuilder {
   @Override

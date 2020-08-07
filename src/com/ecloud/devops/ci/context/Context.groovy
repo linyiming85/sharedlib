@@ -1,4 +1,4 @@
-package com.ecloud.context
+package com.ecloud.devops.ci.context
 
 class Context implements Serializable {
   def jenkins
